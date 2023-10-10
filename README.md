@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import signbitf from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-signbit@deno/mod.js';
+import signbitf from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-signbit@v0.1.1-deno/mod.js';
 ```
 
 #### signbitf( x )
@@ -78,7 +78,7 @@ bool = signbitf( -0.0 );
 ```javascript
 import toFloat32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-float32@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import signbitf from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-signbit@deno/mod.js';
+import signbitf from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-signbit@v0.1.1-deno/mod.js';
 
 var sign;
 var x;
