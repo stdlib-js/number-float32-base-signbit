@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,50 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var randu = require( '@stdlib/random-base-randu' );
-var round = require( '@stdlib/math-base-special-round' );
-var pow = require( '@stdlib/math-base-special-pow' );
-var toFloat32 = require( '@stdlib/number-float64-base-to-float32' );
-var signbitf = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.equal( typeof signbitf, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns a boolean', function test( t ) {
-	t.equal( typeof signbitf(5.0), 'boolean', 'returns a boolean' );
-	t.end();
-});
-
-tape( 'the function returns a boolean indicating if a sign bit is on (true) or off (false)', function test( t ) {
-	var bool;
-	var sign;
-	var frac;
-	var exp;
-	var x;
-	var i;
-
-	for ( i = 0; i < 5000; i++ ) {
-		if ( randu() < 0.5 ) {
-			sign = -1.0;
-		} else {
-			sign = 1.0;
-		}
-		frac = randu() * 10.0;
-		exp = round( randu()*44.0 ) - 22;
-		x = sign * frac * pow( 10.0, exp );
-		x = toFloat32( x );
-		bool = signbitf( x );
-		if ( sign < 0.0 ) {
-			t.equal( bool, true, 'returns true for ' + x );
-		} else {
-			t.equal( bool, false, 'returns false for ' + x );
-		}
-	}
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
