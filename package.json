@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/number-float32-base-signbit",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Return a boolean indicating if the sign bit for a single-precision floating-point number is on (true) or off (false).",
   "license": "Apache-2.0",
   "author": {
@@ -40,10 +40,10 @@
     "@stdlib/number-float32-base-to-word": "^0.2.1"
   },
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.2.1",
+    "@stdlib/assert-is-boolean": "^0.2.2",
     "@stdlib/math-base-special-pow": "^0.2.1",
     "@stdlib/math-base-special-round": "^0.2.1",
-    "@stdlib/number-float64-base-to-float32": "^0.2.1",
+    "@stdlib/number-float64-base-to-float32": "^0.2.2",
     "@stdlib/random-base-randu": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
