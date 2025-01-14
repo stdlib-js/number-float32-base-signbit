@@ -2,6 +2,51 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-01-14)
+
+<section class="features">
+
+### Features
+
+-   [`9aaeaaa`](https://github.com/stdlib-js/stdlib/commit/9aaeaaadf0c59b4d42e2ba7e1a6ea42a1ae2b09d) - add C implementation for `number/float32/base/signbit` [(#3399)](https://github.com/stdlib-js/stdlib/pull/3399)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`9aaeaaa`](https://github.com/stdlib-js/stdlib/commit/9aaeaaadf0c59b4d42e2ba7e1a6ea42a1ae2b09d) - **feat:** add C implementation for `number/float32/base/signbit` [(#3399)](https://github.com/stdlib-js/stdlib/pull/3399) _(by Neeraj Pathak, Athan Reines, stdlib-bot)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Neeraj Pathak
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-27)

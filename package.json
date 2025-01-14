@@ -14,11 +14,14 @@
     }
   ],
   "main": "./lib",
+  "gypfile": false,
   "directories": {
     "benchmark": "./benchmark",
     "doc": "./docs",
     "example": "./examples",
+    "include": "./include",
     "lib": "./lib",
+    "src": "./src",
     "test": "./test"
   },
   "types": "./docs/types",
@@ -37,14 +40,17 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/number-float32-base-to-word": "^0.2.2"
+    "@stdlib/number-float32-base-to-word": "^0.2.2",
+    "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
+    "@stdlib/boolean-ctor": "^0.2.2",
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/math-base-special-round": "^0.3.0",
     "@stdlib/number-float64-base-to-float32": "^0.2.2",
     "@stdlib/random-base-randu": "^0.2.1",
+    "@stdlib/utils-try-require": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
