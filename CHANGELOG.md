@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-27)
+## Unreleased (2026-01-26)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`755d5cb`](https://github.com/stdlib-js/stdlib/commit/755d5cb22e6b18aafee24426257953f33cc1f0ec) - **bench:** refactor to use string interpolation in `number/float32/base` [(#9908)](https://github.com/stdlib-js/stdlib/pull/9908) _(by Lokesh Ranjan)_
 -   [`6ce0275`](https://github.com/stdlib-js/stdlib/commit/6ce0275d3eec598ce3ecb8da74a1c82f0de3a482) - **docs:** remove incorrect hyphens from JSDoc `returns` annotations _(by Philipp Burckhardt)_
 -   [`825738a`](https://github.com/stdlib-js/stdlib/commit/825738ab917726d10fe3082569387861cee964cc) - **bench:** use correct variable name in benchmark for `number/float32/base/signbit` [(#9378)](https://github.com/stdlib-js/stdlib/pull/9378) _(by Samarth Kolarkar)_
 -   [`d61ac9c`](https://github.com/stdlib-js/stdlib/commit/d61ac9c7ba00677bfde2c2fbc039db20ef9b2ce2) - **docs:** fix README sections _(by Athan Reines)_
@@ -40,9 +41,10 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Lokesh Ranjan
 -   Neeraj Pathak
 -   Philipp Burckhardt
 -   Samarth Kolarkar
