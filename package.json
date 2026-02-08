@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/number-float32-base-signbit",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Return a boolean indicating if the sign bit for a single-precision floating-point number is on (true) or off (false).",
   "license": "Apache-2.0",
   "author": {
@@ -41,21 +41,21 @@
   },
   "dependencies": {
     "@stdlib/number-float32-base-to-word": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.3"
+    "@stdlib/utils-library-manifest": "^0.2.4"
   },
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.2.2",
-    "@stdlib/boolean-ctor": "^0.2.2",
-    "@stdlib/math-base-special-pow": "^0.3.0",
-    "@stdlib/math-base-special-round": "^0.3.0",
-    "@stdlib/number-float64-base-to-float32": "^0.2.2",
-    "@stdlib/random-base-randu": "^0.2.1",
-    "@stdlib/string-format": "^0.2.2",
-    "@stdlib/utils-try-require": "^0.2.2",
+    "@stdlib/assert-is-boolean": "^0.2.3",
+    "@stdlib/boolean-ctor": "^0.2.3",
+    "@stdlib/math-base-special-pow": "^0.3.1",
+    "@stdlib/math-base-special-round": "^0.3.1",
+    "@stdlib/number-float64-base-to-float32": "^0.2.3",
+    "@stdlib/random-base-randu": "^0.2.2",
+    "@stdlib/string-format": "^0.2.3",
+    "@stdlib/utils-try-require": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
