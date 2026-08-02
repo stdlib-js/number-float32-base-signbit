@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-31)
+## Unreleased (2026-08-02)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
 -   [`a669750`](https://github.com/stdlib-js/stdlib/commit/a6697506a4937b6525520ced778c2e37c1ae714f) - **bench:** refactor C benchmarks to use pre-computed values [(#13798)](https://github.com/stdlib-js/stdlib/pull/13798) _(by Nakul Krishnakumar)_
 -   [`35566af`](https://github.com/stdlib-js/stdlib/commit/35566af0add64775e60422fd16e50e1bec3947e7) - **docs:** fix C examples in READMEs [(#11229)](https://github.com/stdlib-js/stdlib/pull/11229) _(by anee3, Athan Reines)_
 
@@ -25,10 +26,11 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Nakul Krishnakumar
+-   Philipp Burckhardt
 -   anee3
 
 </section>
